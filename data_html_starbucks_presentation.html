@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Tangerine|Lemonada" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet"> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+} /* end of timeline */
+
+/* Styling for the contributors names (id='cont') */
+#cont {
+font-family: 'Tangerine', serif;
+font-size: 24px;
+color: black;
+}
+/* Styling for fancy typewriter-like text (SBUX feel) */
+#fanci {
+font-family: 'Special Elite', cursive;
+font-size: 24px;
+color: black;
+}
+/* Styling for fancy typewriter-like text (SBUX feel) */
+#fanci2 {
+font-family: 'Special Elite', cursive;
+font-size: 30px;
+color: green;
+}
+/* Styling for fancy typewriter-like text (SBUX feel) */
+#fanci3 {
+font-family: 'Special Elite', cursive;
+font-size: 20px;
+color: black;
+}
+footer {
+	border-style: solid;
+	border-width: 5px;
+	margin-top: 150px;
+	margin-bottom: 25px;
+	}
+</style>
+</head>
+<body>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+	<h3><center>"One Cup to Rule Them All"</center></h3>
+	<hr>
+      <h2 id='fanci'>Starbucks' Data: Stock + Beyond</h2>
+	
+	  <ul>
+			<li id='cont'>Nikki  Pipkins
+			<li id='cont'>Joel  Vengo
+			<li id ='cont'>Cameron  R.  Cumberland
+			<li id='cont'>Gonzalo  Orellana
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2 id='fanci'>Starbucks Origins</h2>
+      <img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562681816/media-starbucks-logo1_n0rtwc.jpg" alt=":)" width="200" height="200" id="wpstats">
+		<ul>
+			<li>Started in 1971, Pike Place Market. Seatle, WA
+			<li>Starbucks got its name from classic nautical book Moby Dick, the white whale hunting. The original Starbucks twin-taled Siren logo was designed to reflect the seductive imagery of the sea
+			<li>Howard Schultz bought the original store in 1987, Since then, Starbucks has added an average of 2 stores a day
+   </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2 id='fanci'>Starbucks Company</h2>
+      <img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562686160/organizational_mxtr8g.png" alt=":)" width="470" height="470" id="wpstats">
+      <p>
+		<ul>
+			<li>Today Starbucks is the largest coffeehouse company in the world, with 27,339 retail stores and more than 300,000 employess in 55 countries
+			<li>So popular in China, a new store opens every 15 hours
+			<li>More than 14,000 stores and more than 191,000 employees in US territory
+			<li>Earns $24,72 billion worldwide and owns 39.8% share of US Coffee Market
+			<li> Within the past ten years Starbucks  has had a great revenue increase of 9.90 percent
+			<li>There are more than 300,000+ Starbucks Employees in the world, of those, 191,000 are in US
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+		<div class='tableauPlaceholder' id='viz1562769731571' style='position: relative'>
+			<noscript>
+				<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;JW&#47;JW6KKR68M&#47;1_rss.png' style='border: none' /></a>
+	
+			</noscript>
+			<object class='tableauViz'  style='display:none;'>
+				<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+				<param name='embed_code_version' value='3' /> 
+				<param name='path' value='shared&#47;JW6KKR68M' /> 
+				<param name='toolbar' value='yes' />
+				<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;JW&#47;JW6KKR68M&#47;1.png' />
+				<param name='animate_transition' value='yes' />
+				<param name='display_static_image' value='yes' />
+				<param name='display_spinner' value='yes' />
+				<param name='display_overlay' value='yes' />
+				<param name='display_count' value='yes' />
+			</object>
+		</div>
+		<script type='text/javascript'>
+			var divElement = document.getElementById('viz1562769731571');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			if ( divElement.offsetWidth > 800 ) 
+				{ vizElement.style.width='100%';
+				vizElement.style.height=(divElement.offsetWidth*0.75)+'px';}
+			else if ( divElement.offsetWidth > 500 ) 
+				{ vizElement.style.width='100%';
+				  vizElement.style.height=(divElement.offsetWidth*0.75)+'px';}
+			else { vizElement.style.width='100%';
+				   vizElement.style.height='727px';}
+				   var scriptElement = document.createElement('script');
+				   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+				   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+		</script>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+		<div class='tableauPlaceholder' id='viz1562860592756' style='position: relative'>
+			<noscript>
+				<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CG&#47;CGJ4ZKZTJ&#47;1_rss.png' style='border: none' /></a>
+			</noscript>
+			<object class='tableauViz'  style='display:none;'>
+				<param name="tabs" value="yes"/>
+				<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+				<param name='embed_code_version' value='3' /> 
+				<param name='path' value='shared&#47;CGJ4ZKZTJ' /> 
+				<param name='toolbar' value='yes' />
+				<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CG&#47;CGJ4ZKZTJ&#47;1.png' /> 
+				<param name='animate_transition' value='yes' />
+				<param name='display_static_image' value='yes' />
+				<param name='display_spinner' value='yes' />
+				<param name='display_overlay' value='yes' />
+				<param name='display_count' value='yes' />
+			</object>
+		</div>
+		<script type='text/javascript'>
+			var divElement = document.getElementById('viz1562860592756');
+			var vizElement = divElement.getElementsByTagName('object')[0]; 
+			vizElement.style.width='100%';
+			vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; 
+			var scriptElement = document.createElement('script'); 
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
+			vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+		</script>
+		<a href="https://public.tableau.com/profile/ternia.nikki.pipkins#!/vizhome/Starbucksfacts/Least5" target="_blank">Click for more...</a>	
+    </div>
+	
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2 id='fanci'>SBUX (Stock)</h2><h4>Shaded by coffee price, sized by trading volume</h4>
+	  
+      <img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562783424/stock_bubbles_juresa.png" alt=":)" width="480" height="480" id="wpstats">
+     
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2 id='fanci'>Starbucks Shares vs Coffee Price Timeline</h2>
+		<img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562783424/stock-and-coffee_price_pknyfy.png" alt=":)" width="470" height="270" id="wpstats">
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+		<h2 id='fanci'>Topographic Map</h2>
+		<img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562789680/starbucks_topplot_edit_zsmbh4.png" alt=":)" width="470" height="270" id="wpstats">
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2 id='fanci'>Starbucks Market Price Per Share</h2>
+      <iframe src="https://quotes.wsj.com/SBUX" width="450" height="450"></iframe>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+		<h2 id='fanci'>Starbucks Revenue 2003-2018 Worldwide</h2>
+		<div class='tableauPlaceholder' id='viz1562775441814' style='position: relative'>
+			<noscript>
+				<a href=''><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sa&#47;sales2003to2008&#47;Revenue&#47;1_rss.png' style='border: none' /></a>
+			</noscript>
+			<object class='tableauViz'  style='display:none;'>
+				<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+				<param name='embed_code_version' value='3' /> 
+				<param name='site_root' value='' />
+				<param name='name' value='sales2003to2008&#47;Revenue' />
+				<param name='tabs' value='no' />
+				<param name='toolbar' value='yes' />
+				<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sa&#47;sales2003to2008&#47;Revenue&#47;1.png' /> 
+				<param name='animate_transition' value='yes' />
+				<param name='display_static_image' value='yes' />
+				<param name='display_spinner' value='yes' />
+				<param name='display_overlay' value='yes' />
+				<param name='display_count' value='yes' />
+				<param name='filter' value='publish=yes' />
+			</object>
+		</div>
+		<script type='text/javascript'>
+			var divElement = document.getElementById('viz1562775441814');
+			var vizElement = divElement.getElementsByTagName('object')[0];
+			vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);
+		</script>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+     <h2 id='fanci'> Starbucks' Revenue US</h2>
+	    <img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562939894/Sbux_Rev_xdfxmr.png" alt=":)" width="470" height="270" id="wpstats">
+    </div>
+  </div>
+
+  <!--Just the basic revenue chart -->
+  <div class="container right">
+    <div class="content">
+      <h2 id='fanci'> Starbucks' Compared Predicted Revenue </h2>
+	    <img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562940087/Predicted_Rev_vfxdbo.png" alt=":)" width="470" height="270" id="wpstats">
+	</div>	
+  </div>
+	
+	<!-- This image is the one with the small shadow (pred. vs. outcome) -->
+  <!-- this should be the larger projection (big grey cone)-->
+  
+  <div class="container left">
+    <div class="content">
+      <h2 id='fanci'>Data Forecast Estimates</h2>
+		<img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562790225/SBUX-free-cash-flow-graph_fg0cik.png" alt=":)" width="470" height="270" id="wpstats">
+    </div>
+  </div>
+  
+  <div class="container right">
+    <div class="content"> 
+      <h2 id='fanci'> Starbucks' Forecast (With Error) Revenue </h2>
+	    <img src="https://res.cloudinary.com/montgomerycollege/image/upload/v1562940161/Forecasted_Rev_dba0qg.png" alt=":)" width="470" height="270" id="wpstats">
+	</div>	
+  </div>
+  
+	<div class="footer">
+    <div class="content">
+      <h1 id='fanci2'>Thank You | &copy; Group2 2019</h1>
+	  <h3 id='fanci3'> "A world without caffeine is chaos."</h3>
+	  <!-- Play the video at the end, it should auto start at 8 seconds in. Don't have to run the whole thing
+	  but it is a cute coffee clip! -->
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q1lYo7gXuhg?start=8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>	
+  </div>
+	
+</div>
+
+</body>
+</html>
+

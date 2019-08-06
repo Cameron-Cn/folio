@@ -3,7 +3,7 @@ _A Portfolio of Programmatic, Data, and Other Works for Demonstration_
 
 All works created and maintained by:
 
-        Cameron R. Cumberland (Cameron-Cn) <br>
+  Cameron R. Cumberland (Cameron-Cn) <br>
         &#26607;&#26234;&#26126;
 
 

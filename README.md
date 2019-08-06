@@ -12,9 +12,11 @@ All work is shared under a MIT License. Feel free to contact me for questions, d
 ---
 
 ## PROJECT TYPES
-(Project types are denoted at the beginning of a file with `data_` , `html_` ,or other tags before the file name.)
 
 ### Data Analysis (Python, R, ...)
+
+
+### Presentations (Generally PPTX -> PDF)
 
 
 ### Website (HTML, OctoberCMS, ...)

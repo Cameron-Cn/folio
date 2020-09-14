@@ -5,6 +5,8 @@ All works created and maintained by:
 
   Cameron R. Cumberland (Cameron-Cn) <br>
         &#26607;&#26234;&#26126;
+        
+ + [On LinkedIn](https://linkedin.com/in/crckzm)
 
 
 All work is shared under a MIT License unless otherwise specified in the work, or belonging to another rights holder. Feel free to contact me for questions, discussion, or concerns.

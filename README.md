@@ -23,7 +23,7 @@ Note that, as a lot of my actual technical writing is produced for _internal_ us
 
 That said, I do have a number of publicly available publications:
 * [Seed Grants of Change: Building Thriving Networks Among Female Geotechnical Faculty](https://ascelibrary.org/doi/10.1061/%28ASCE%29EI.2643-9115.0000039) was published in 2021 in _The Journal of Civil Engineering Education_. 
-* Another paper has been accepted for publication at [GeoCongress 2022](https://www.geocongress.org/), that will be linked here when it is published [Available upon request]
+* Another paper ("State of the Field: Changing Geotechnical Faculty Demographics and Recognition") has been accepted for publication at [GeoCongress 2022](https://www.geocongress.org/), that will be linked here when it is published [Available upon request]
 * My undergraduate thesis is here `cumberland_undergrad_thesis_2016.pdf` as well, on the subject of Japanese colonialism in the post-Meiji era.
 
 ### Data Analysis (Python, R, ...)

@@ -7,6 +7,7 @@ All works created and maintained by:
         &#26607;&#26234;&#26126;
         
  + [On LinkedIn](https://linkedin.com/in/crckzm)
+ + [ORCID](https://orcid.org/0000-0003-2303-1347)
 
 
 Please be mindful that all work is mine unless it belongs to another rights holder. (Any logos used are the property of their respective rights holder.)
@@ -46,8 +47,9 @@ Mock-up presentation that discusses the UNDP (from a contemporary technical stan
     + Thousands of unique entries
 
 
-
 ### Linux Systems
 Not exactly an easy to show off skill, but I grew up using Linux and in the fall of 2014 taught myself bash scripting (as I was waiting to being university in Seattle). Since then, I've continued to learn more about GNU/Linux systems. Currently on a derivative of Arch linux, btw
 
 + Comfortable with bash scripts, Linux networking, system maintenance and the advanced Linux kernel (see my LinkedIn)
+
+I am currently pursuing Linux System Administration Certification, a bold move for what has until now been merely a rewarding (and geeky!) hobby.

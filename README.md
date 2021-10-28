@@ -15,6 +15,16 @@ All work is shared under GPL-2.0 unless otherwise specified in the work, or belo
 
 ## PROJECT TYPES
 
+### Writing (Technical & Non)
+As a graduate of the Humanities, the language arts will forever be close to my heart. As someone with a hobby in tech, and jobs spanning various tech-affiliated areas, my writing currently tends more towards the Technical (i.e. informative) rather than expository (i.e. argumentative) form.
+
+Note that, as a lot of my actual technical writing is produced for _internal_ use, I cannot provide full examples here for many projects. I am able to send excerpted segments in "password-protected" form upon request. (See `cumberland_writing_sample_2018.128.pdf` for example.)
+
+That said, I do have a number of publicly available publications:
+* [Seed Grants of Change: Building Thriving Networks Among Female Geotechnical Faculty](https://ascelibrary.org/doi/10.1061/%28ASCE%29EI.2643-9115.0000039) was published in 2021 in _The Journal of Civil Engineering Education_. 
+* Another paper has been accepted for publication at [GeoCongress 2022](https://www.geocongress.org/), that will be linked here when it is published [Available upon request]
+* My undergraduate thesis is here `cumberland_undergrad_thesis_2016.pdf` as well, on the subject of Japanese colonialism in the post-Meiji era.
+
 ### Data Analysis (Python, R, ...)
 Anything that is an (.ipynb) file. _Note: more recent projects aren't mine to show off here (proprietary data), but I can discuss them in terms of procedure, scope, and impact._
 + `data_hdi_project_TESTS`  

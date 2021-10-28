@@ -9,7 +9,7 @@ All works created and maintained by:
  + [On LinkedIn](https://linkedin.com/in/crckzm)
 
 
-All work is shared under GPL-2.0 unless otherwise specified in the work, or belonging to another rights holder. Feel free to contact me with questions, discussion, or concerns.
+Please be mindful that all work is mine unless it belongs to another rights holder. (Any logos used are the property of their respective rights holder.)
 
 ---
 

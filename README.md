@@ -19,7 +19,7 @@ Please be mindful that all work is mine unless it belongs to another rights hold
 ### Writing (Technical & Non)
 As a graduate of the Humanities, the language arts will forever be close to my heart. As someone with a hobby in tech, and jobs spanning various tech-affiliated areas, my writing currently tends more towards the Technical (i.e. informative) rather than expository (i.e. argumentative) form.
 
-Note that, as a lot of my actual technical writing is produced for _internal_ use, I cannot provide full examples here for many projects. I am able to send excerpted segments in "password-protected" form upon request. (See `cumberland_writing_sample_2018.128.pdf` for example.)
+Note that, as a lot of my actual technical writing is produced for _internal_ use, I cannot provide full examples here for many projects. I am able to send excerpted segments in "password-protected" form upon request. (See `cumberland_writing_sample_2018.128.pdf` and `cumberland_writing_sample_2021.128.pdf` for example.) There is NO sensitive, proprietary, or personal information included in either document.
 
 That said, I do have a number of publicly available publications:
 * [Seed Grants of Change: Building Thriving Networks Among Female Geotechnical Faculty](https://ascelibrary.org/doi/10.1061/%28ASCE%29EI.2643-9115.0000039) was published in 2021 in _The Journal of Civil Engineering Education_. 

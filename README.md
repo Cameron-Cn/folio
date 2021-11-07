@@ -39,9 +39,10 @@ Mock-up presentation that discusses the UNDP (from a contemporary technical stan
 
 ### Website (HTML, OctoberCMS, ...)
 + I created (both site and content) for the GeoTechnical Women Faculty Project at Syracuse University: [GTWF site](http://gtwf.syr.edu)
-+ I run my own website, which is a lesson in not learning PHP by first implementing it on production.
++ I run my own website, which is a lesson in not learning PHP by first implementing it on production. I have recently moved it back to WordPress, and am trying to get the markdown all converted to 'block.' Unfortunately, this is slow work, and so many of the posts are...hideous.
 
 ### Databases
++ Updated database at Syracuse University for Geotechnical Women Faculty (GTWF) Project of U.S.-based geotechnical faculty. Observations of change between my updated "snapshot" and 2016 were the basis for the paper "State of the Field" (see above).
 + Created customized database and corresponding "office BlueBook" for a university in Washington, D.C. that collected a decade of historical data from across departments and generated projections for the future
     + Resulted in 200-pages of documentation
     + Thousands of unique entries

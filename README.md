@@ -28,6 +28,8 @@ That said, I do have a number of publicly available publications:
 
 ### Data Analysis (Python, R, ...)
 Anything that is an (.ipynb) file. _Note: more recent projects aren't mine to show off here (proprietary data), but I can discuss them in terms of procedure, scope, and impact._
++ The GTWF website has some interactive graphics which I created in Plotly and exported from the project GitHub:
+  + [Simple maps in Plotly](https://gtwf.syr.edu/seed-grant-round-2/2020-awardees/)
 + `data_hdi_project_TESTS`  
 I took data from the United Nations Development Program and replicated some visualizations from their website in Python. I would be interested in re-doing the visuals with Plot.ly rather than matplotlib.
 + `data_sentiment-analysis_soup`  
@@ -39,6 +41,7 @@ Mock-up presentation that discusses the UNDP (from a contemporary technical stan
 
 ### Website (HTML, OctoberCMS, ...)
 + I created (both site and content) for the GeoTechnical Women Faculty Project at Syracuse University: [GTWF site](http://gtwf.syr.edu)
+  + Including a very simple, "hidden" timeline: [Timeline](https://gtwf.syr.edu/about/)
 + I run my own website, which is a lesson in not learning PHP by first implementing it on production. I have recently moved it back to WordPress, and am trying to get the markdown all converted to 'block.' Unfortunately, this is slow work, and so many of the posts are...hideous.
 
 ### Databases
@@ -49,8 +52,7 @@ Mock-up presentation that discusses the UNDP (from a contemporary technical stan
 
 
 ### Linux Systems
-Not exactly an easy to show off skill, but I grew up using Linux and in the fall of 2014 taught myself bash scripting (as I was waiting to being university in Seattle). Since then, I've continued to learn more about GNU/Linux systems. Currently on a derivative of Arch linux, btw
+Not exactly an easy to show off skill, but I grew up using Linux and in the fall of 2014 taught myself bash scripting (as I was waiting to begin university in Seattle). Since then, I've continued to learn more about GNU/Linux systems. Currently on a derivative of Arch linux, btw
 
 + Comfortable with bash scripts, Linux networking, system maintenance and the advanced Linux kernel (see my LinkedIn)
-
-I am currently pursuing Linux System Administration Certification, a bold move for what has until now been merely a rewarding (and geeky!) hobby.
++ I am currently pursuing Linux System Administration Certification, a bold move for what has until now been merely a rewarding (and geeky!) hobby.

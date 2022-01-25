@@ -54,5 +54,5 @@ Mock-up presentation that discusses the UNDP (from a contemporary technical stan
 ### Linux Systems
 Not exactly an easy to show off skill, but I grew up using Linux and in the fall of 2014 taught myself bash scripting (as I was waiting to begin university in Seattle). Since then, I've continued to learn more about GNU/Linux systems. Currently on a derivative of Arch linux, btw
 
++ 2022.01.22: **SUSE Linux Certified Administration (SCA)** Certificate Received! ID #2321
 + Comfortable with bash scripts, Linux networking, system maintenance and the advanced Linux kernel (see my LinkedIn)
-+ I am currently pursuing Linux System Administration Certification, a bold move for what has until now been merely a rewarding (and geeky!) hobby.

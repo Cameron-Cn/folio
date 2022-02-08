@@ -56,3 +56,8 @@ Not exactly an easy to show off skill, but I grew up using Linux and in the fall
 
 + 2022.01.22: **SUSE Linux Certified Administration (SCA)** Certificate Received! ID #2321
 + Comfortable with bash scripts, Linux networking, system maintenance and the advanced Linux kernel (see my LinkedIn)
+
+<hr>
+
+### Homelab 2022
+For some IRL networking etc skill demonstration, check out the "Homelab" setup I helped setup and maintain during COVID. [Write up here on github](https://github.com/Cameron-Cn/folio/homelab/homelab_gh.md)
